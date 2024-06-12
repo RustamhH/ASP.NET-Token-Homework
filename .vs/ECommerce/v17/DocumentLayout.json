@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9514901-A917-4B4C-8EA0-0C1E490382B4}|Core\\ECommerce.Domain\\ECommerce.Domain.csproj|c:\\rustamh\\downloads\\ecommerce-20240611t160115z-001\\ecommerce\\core\\ecommerce.domain\\entities\\concretes\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F9514901-A917-4B4C-8EA0-0C1E490382B4}|Core\\ECommerce.Domain\\ECommerce.Domain.csproj|solutionrelative:core\\ecommerce.domain\\entities\\concretes\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8AD48219-B401-4F85-97E8-DE7987A29E05}|Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj|c:\\rustamh\\downloads\\ecommerce-20240611t160115z-001\\ecommerce\\presentation\\ecommerce.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8AD48219-B401-4F85-97E8-DE7987A29E05}|Presentation\\ECommerce.WebApi\\ECommerce.WebApi.csproj|solutionrelative:presentation\\ecommerce.webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E15EC2-3839-4FEA-A1F1-F1FD4220FB0B}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|c:\\rustamh\\downloads\\ecommerce-20240611t160115z-001\\ecommerce\\infrastructure\\ecommerce.infrastructure\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E15EC2-3839-4FEA-A1F1-F1FD4220FB0B}|Infrastructure\\ECommerce.Infrastructure\\ECommerce.Infrastructure.csproj|solutionrelative:infrastructure\\ecommerce.infrastructure\\services\\smtpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5FF871C-E9D4-4B3B-B344-B85DFC7EFCFB}|Core\\ECommerce.Application\\ECommerce.Application.csproj|c:\\rustamh\\downloads\\ecommerce-20240611t160115z-001\\ecommerce\\core\\ecommerce.application\\repositories\\appuser\\ireadappuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5FF871C-E9D4-4B3B-B344-B85DFC7EFCFB}|Core\\ECommerce.Application\\ECommerce.Application.csproj|solutionrelative:core\\ecommerce.application\\repositories\\appuser\\ireadappuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SmtpService.cs",
+              "DocumentMoniker": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\Infrastructure\\ECommerce.Infrastructure\\Services\\SmtpService.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\ECommerce.Infrastructure\\Services\\SmtpService.cs",
+              "ToolTip": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\Infrastructure\\ECommerce.Infrastructure\\Services\\SmtpService.cs",
+              "RelativeToolTip": "Infrastructure\\ECommerce.Infrastructure\\Services\\SmtpService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAwwBcAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:04:56.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\presentation\\ECommerce.WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "presentation\\ECommerce.WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\presentation\\ECommerce.WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "presentation\\ECommerce.WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAIwGcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:16:07.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IReadAppUserRepository.cs",
+              "DocumentMoniker": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\Core\\ECommerce.Application\\Repositories\\AppUser\\IReadAppUserRepository.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Application\\Repositories\\AppUser\\IReadAppUserRepository.cs",
+              "ToolTip": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\Core\\ECommerce.Application\\Repositories\\AppUser\\IReadAppUserRepository.cs",
+              "RelativeToolTip": "Core\\ECommerce.Application\\Repositories\\AppUser\\IReadAppUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:11:55.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\Core\\ECommerce.Domain\\Entities\\Concretes\\AppUser.cs",
+              "RelativeDocumentMoniker": "Core\\ECommerce.Domain\\Entities\\Concretes\\AppUser.cs",
+              "ToolTip": "C:\\RustamH\\Downloads\\ECommerce-20240611T160115Z-001\\ECommerce\\Core\\ECommerce.Domain\\Entities\\Concretes\\AppUser.cs",
+              "RelativeToolTip": "Core\\ECommerce.Domain\\Entities\\Concretes\\AppUser.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T11:10:33.323Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
