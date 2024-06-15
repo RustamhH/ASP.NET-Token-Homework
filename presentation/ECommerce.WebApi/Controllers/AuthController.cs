@@ -34,6 +34,10 @@ public class AuthController : ControllerBase
         if (user is null)
             return BadRequest("Invalid username");
 
+        if (user.ConfirmEmail is false)
+            return BadRequest("Email not confirmed");
+
+
         using var hmac = new HMACSHA256(user.PasswordSalt);
         var computedHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(loginDTO.Password));
 
@@ -93,7 +97,7 @@ public class AuthController : ControllerBase
 
     // Add User Method
     [HttpPost("[action]")]
-    public async Task<IActionResult> AddUser([FromBody] AppUserDTO appUserDTO)
+    public async Task<IActionResult> Register([FromBody] AppUserDTO appUserDTO)
     {
         var user = await _readAppUserRepository.GetUserByUserName(appUserDTO.UserName);
         if (user is not null)
@@ -107,13 +111,52 @@ public class AuthController : ControllerBase
             Email = appUserDTO.Email,
             PasswordHash = hmac.ComputeHash(Encoding.UTF8.GetBytes(appUserDTO.Password)),
             PasswordSalt = hmac.Key,
-            Role = appUserDTO.Role
+            Role = appUserDTO.Role,
+            ConfirmEmail = false
         };
+
+
+        var confirmEmailToken = _tokenService.CreateConfirmEmailToken();
+        var actionUrl = $@"https://localhost:5046/api/Auth/ConfirmEmail?token={confirmEmailToken.Token}";
+        var result = await SmtpService.SendMail(appUserDTO.Email, "Confirm Your Email", $"<a href='{actionUrl}'>Confirm Your Email</a>");
+
+        newUser.ConfirmEmailToken = confirmEmailToken.Token;
+        newUser.ConfirmEmailTokenCreateTime = confirmEmailToken.CreateTime;
+        newUser.ConfirmEmailTokenExpireTime = confirmEmailToken.ExpireTime;
 
         await _writeAppUserRepository.AddAsync(newUser);
         await _writeAppUserRepository.SaveChangeAsync();
         return Ok();
     }
+
+
+
+
+
+    [HttpPost("[action]")]
+    public async Task<IActionResult> ConfirmEmail([FromQuery] string token)
+    {
+
+        var user = await _readAppUserRepository.GetUserByConfirmEmailToken(token);
+        if (user is null)
+            return BadRequest("Invalid User");
+
+        if (user.ConfirmEmailTokenExpireTime < DateTime.UtcNow)
+            return BadRequest("Expired Token");
+
+        user.ConfirmEmail = true;
+
+        await _writeAppUserRepository.UpdateAsync(user);
+        await _writeAppUserRepository.SaveChangeAsync();
+        return Ok();
+    }
+
+
+
+
+
+
+
 
     [Authorize(Roles = "Admin")]
     [HttpGet("[action]")]

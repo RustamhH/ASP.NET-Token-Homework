@@ -28,3 +28,19 @@ C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Core\EComm
 C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\refint\ECommerce.Application.dll
 C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.pdb
 C:\Users\atamoghlanov_j\Desktop\Lesson 17. CQRS and MediatR\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ref\ECommerce.Application.dll
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\bin\Debug\net8.0\ECommerce.Application.deps.json
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\bin\Debug\net8.0\ECommerce.Application.dll
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\bin\Debug\net8.0\ECommerce.Application.pdb
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\bin\Debug\net8.0\ECommerce.Domain.dll
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\bin\Debug\net8.0\ECommerce.Domain.pdb
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.csproj.AssemblyReference.cache
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.AssemblyInfoInputs.cache
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.AssemblyInfo.cs
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.csproj.CoreCompileInputs.cache
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.sourcelink.json
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerc.670E0CBE.Up2Date
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.dll
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\refint\ECommerce.Application.dll
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ECommerce.Application.pdb
+C:\RustamH\Downloads\ECommerce-20240611T160115Z-001\ECommerce\Core\ECommerce.Application\obj\Debug\net8.0\ref\ECommerce.Application.dll

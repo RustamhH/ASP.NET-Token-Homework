@@ -65,4 +65,15 @@ public class TokenService : ITokenService
         };
         return repasswordToken;
     }
+    
+    public RefreshToken CreateConfirmEmailToken()
+    {
+        var repasswordToken = new RefreshToken()
+        {
+            Token = Convert.ToBase64String(RandomNumberGenerator.GetBytes(64)),
+            ExpireTime = DateTime.UtcNow.AddMinutes(30),
+            CreateTime = DateTime.UtcNow
+        };
+        return repasswordToken;
+    }
 }

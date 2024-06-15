@@ -12,6 +12,11 @@ public class ReadAppUserRepository : ReadGenericRepository<AppUser>, IReadAppUse
     {
     }
 
+    public Task<AppUser?> GetUserByConfirmEmailToken(string confirmEmailToken)
+    {
+        return _table.FirstOrDefaultAsync(p => p.ConfirmEmailToken == confirmEmailToken);
+    }
+
     public async Task<AppUser?> GetUserByEmail(string email)
     {
         return await _table.FirstOrDefaultAsync(p => p.Email == email);
